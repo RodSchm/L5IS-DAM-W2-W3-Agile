@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-style: italic;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0e918c;
+}
+li{
+    float:right;
+}
+li a{
+    
+    display: block;
+    color: white;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
