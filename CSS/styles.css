@@ -23,3 +23,16 @@ li a{
     text-decoration: none;
     font-size: 1.2rem;
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #cccccc;
+    padding: 2px 5px;
+}
+.lnks {
+    padding: 0.1;
+    background-color: #dddddd;
+    margin-right: 40px;
+}
