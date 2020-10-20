@@ -23,3 +23,25 @@ li a{
     text-decoration: none;
     font-size: 1.2rem;
 }
+header {
+    background-color: gray;
+}
+.headerimg {
+    box-sizing: border-box;
+    float: left;
+    width: 10%;
+    padding: 0;
+    color: gray;
+}
+.headertext{
+    box-sizing: border-box;
+    float: left;
+    width: 90%;
+    padding: 0;
+    text-align: center;
+}
+.head::after{
+    content: "";
+    clear: both;
+    display: table;
+}
