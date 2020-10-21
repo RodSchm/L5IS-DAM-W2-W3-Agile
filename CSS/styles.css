@@ -37,10 +37,10 @@ li a{
 .ftrlinkpan {
     float: left;
 }
-.ftrlinks {
+.ftrglinks {
     float: left;
 }
-.ftrlinks a {
+.ftrglinks a {
     padding: 6px 10px;
     background-color: #51c4c2;
     text-align: center;
