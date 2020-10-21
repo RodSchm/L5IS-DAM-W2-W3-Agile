@@ -3,6 +3,7 @@ body{
     font-family: 'Montserrat';
     font-weight: bold;
     font-style: italic;
+    margin: 0px;
     
 }
 ul{
@@ -15,13 +16,25 @@ ul{
 li{
     float:right;
 }
-li a{
-    
+li a{ 
     display: block;
     color: white;
     padding: 1rem 3rem;
     text-decoration: none;
     font-size: 1.2rem;
+}
+header {
+    display: inline;
+    text-align: left;
+}
+header h1{
+    display: inline;
+    margin: 20px;
+    
+}
+.headbackground{
+    background-color: #d2d3c9;
+    padding: 10px;
 }
 
 .footer {
@@ -29,19 +42,14 @@ li a{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #cccccc;
+    background-color: #d2d3c9;
     padding: 2px 5px;
 }
 .lnks {
     padding: 0.1;
-    background-color: #dddddd;
+    background-color: #d2d3c6;
     margin-right: 40px;
 }
-.header{
-    display: inline;
-    text-align: left;
-}
-.header h1{
-    margin: 30px 30px 30px 30px;
-
+.spacer{
+    height: 5px;
 }
