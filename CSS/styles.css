@@ -48,22 +48,20 @@ header h1{
     position:fixed;
     left:0;
     bottom:0;
-    height: 100px;
     width:100%;
     background-color: #0e918c;
     color: white;
     padding:1px 10px;
 }
-.ftrlinkpan {
-    float: left;
-}
-.ftrglinks {
-    float: left;
-}
+
 .ftrglinks a {
     padding: 6px 10px;
     background-color: #51c4c2;
     text-align: center;
     text-decoration: none;
     color: #ffffff;
+}
+.fab{
+    padding: 5px 15px 15px 15px;
+    color: white;
 }
