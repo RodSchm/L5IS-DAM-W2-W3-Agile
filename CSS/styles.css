@@ -6,6 +6,7 @@ body{
     margin: 0px;
     
 }
+/*NavBar*/
 ul{
     list-style-type: none;
     margin: 0;
@@ -23,6 +24,7 @@ li a{
     text-decoration: none;
     font-size: 1.2rem;
 }
+/*Header*/
 header {
     display: inline;
     text-align: left;
@@ -37,19 +39,31 @@ header h1{
     padding: 10px;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #d2d3c9;
-    padding: 2px 5px;
-}
-.lnks {
-    padding: 0.1;
-    background-color: #d2d3c6;
-    margin-right: 40px;
-}
 .spacer{
     height: 5px;
+}
+
+/*Footer*/
+#footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    height: 100px;
+    width:100%;
+    background-color: #0e918c;
+    color: white;
+    padding:1px 10px;
+}
+.ftrlinkpan {
+    float: left;
+}
+.ftrglinks {
+    float: left;
+}
+.ftrglinks a {
+    padding: 6px 10px;
+    background-color: #51c4c2;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
 }
