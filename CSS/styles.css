@@ -23,25 +23,27 @@ li a{
     text-decoration: none;
     font-size: 1.2rem;
 }
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #cccccc;
-    padding: 2px 5px;
+/*Footer*/
+#footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    height: 100px;
+    width:100%;
+    background-color: #0e918c;
+    color: white;
+    padding:1px 10px;
 }
-.lnks {
-    padding: 0.1;
-    background-color: #dddddd;
-    margin-right: 40px;
-
-.header{
-    display: inline;
-    text-align: left;
+.ftrlinkpan {
+    float: left;
 }
-.header h1{
-    margin: 30px 30px 30px 30px;
-
+.ftrlinks {
+    float: left;
+}
+.ftrlinks a {
+    padding: 6px 10px;
+    background-color: #51c4c2;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
 }
