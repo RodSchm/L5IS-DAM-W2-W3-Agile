@@ -71,6 +71,7 @@ header h1{
     display: inline;
     text-decoration:yellow;
     list-style-type: square;
+    margin: 50px;
 }
 .bodylistC1{
     float: left;
@@ -80,5 +81,5 @@ header h1{
 }
 /*Invis text*/
 .invitext{
-color: white;
+    color: white;
 }
