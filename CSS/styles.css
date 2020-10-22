@@ -65,3 +65,20 @@ header h1{
     padding: 5px 15px 15px 15px;
     color: white;
 }
+/*Content page list*/
+.bodylistC{
+    float: left;
+    display: inline;
+    text-decoration:yellow;
+    list-style-type: square;
+}
+.bodylistC1{
+    float: left;
+    text-align: left;
+    text-decoration:yellow;
+    list-style-type: square;
+}
+/*Invis text*/
+.invitext{
+color: white;
+}
