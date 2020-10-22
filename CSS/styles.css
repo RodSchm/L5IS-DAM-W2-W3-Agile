@@ -42,7 +42,6 @@ header h1{
 .spacer{
     height: 5px;
 }
-
 /*Footer*/
 #footer {
     position:fixed;
@@ -53,7 +52,6 @@ header h1{
     color: white;
     padding:1px 10px;
 }
-
 .ftrglinks a {
     padding: 6px 10px;
     background-color: #51c4c2;
@@ -63,6 +61,25 @@ header h1{
 }
 .fab{
     padding: 5px 15px 15px 15px;
+    color: white;
+}
+
+/*Content page list*/
+.bodylistC{
+    float: left;
+    display: inline;
+    text-decoration:yellow;
+    list-style-type: square;
+    margin: 50px;
+}
+.bodylistC1{
+    float: left;
+    text-align: left;
+    text-decoration:yellow;
+    list-style-type: square;
+}
+/*Invis text*/
+.invitext{
     color: white;
 }
 
@@ -126,4 +143,5 @@ form {
       margin: 10px 10px 10px 50px;
 
   }
+
 
