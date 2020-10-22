@@ -42,7 +42,6 @@ header h1{
 .spacer{
     height: 5px;
 }
-
 /*Footer*/
 #footer {
     position:fixed;
@@ -53,7 +52,6 @@ header h1{
     color: white;
     padding:1px 10px;
 }
-
 .ftrglinks a {
     padding: 6px 10px;
     background-color: #51c4c2;
@@ -65,6 +63,7 @@ header h1{
     padding: 5px 15px 15px 15px;
     color: white;
 }
+
 /*Content page list*/
 .bodylistC{
     float: left;
@@ -83,3 +82,66 @@ header h1{
 .invitext{
     color: white;
 }
+
+/*Forms*/
+form {
+    padding: 20px 0;
+    position: relative;
+  }
+  form input {
+    border: 1px solid ;
+    background-color: #d2d3c9;
+    width: 250px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+  }
+  
+  form button {
+    appearance: none;
+    outline: 0;
+    background-color: #0e918c;
+    border: 0;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    width: 281px;
+    font-size: 18px;
+  }
+  .formdiv{
+      border: 2px solid;
+      border-radius: 5px;
+      width: 300px;
+      text-align: center;
+      display: inline-block;
+  }
+  /*Profile page*/
+  .container {
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .profileimg{
+      float: left;
+      padding: 30px;
+      border-right: 4px solid black;
+  }
+  .container p{
+      font-weight: 300;
+      margin: 5px 5px 5px 50px;
+      border: 1px solid black;
+  }
+  .container h4{
+      margin: 10px 10px 10px 50px;
+
+  }
+
+
