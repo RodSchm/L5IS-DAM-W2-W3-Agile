@@ -44,13 +44,14 @@ header h1{
 }
 /*Footer*/
 #footer {
-    position:fixed;
-    left:0;
-    bottom:0;
+    margin-top: 100px;
+    display: flex;
+    height: 110px;
     width:100%;
     background-color: #0e918c;
     color: white;
     padding:1px 10px;
+    justify-content: center;
 }
 .ftrglinks a {
     padding: 6px 10px;
@@ -142,6 +143,20 @@ form {
   .container h4{
       margin: 10px 10px 10px 50px;
 
+  }
+  .homeimg{
+      width: 500px;
+      height: 300px;
+  }
+  .homelist{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      margin-left: 50px;
+      margin-bottom: 10px;   
+  }
+  .homelist li{
+      
   }
 
 
