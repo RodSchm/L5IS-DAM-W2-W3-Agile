@@ -103,3 +103,25 @@ form {
       text-align: center;
       display: inline-block;
   }
+  /*Profile page*/
+  .container {
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .profileimg{
+      float: left;
+      padding: 30px;
+      border-right: 4px solid black;
+  }
+  .container p{
+      font-weight: 300;
+      margin: 5px 5px 5px 50px;
+      border: 1px solid black;
+  }
+  .container h4{
+      margin: 10px 10px 10px 50px;
+
+  }
